@@ -1,0 +1,11 @@
+mysql.server start
+mysql -uroot
+CREATE DATABASE php_training
+use php_training
+CREATE TABLE ph_heroes (id INT unsigned NOT NULL AUTO_INCREMENT, firstname VARCHAR(250) NOT NULL, lastname VARCHAR(250) NOT NULL, birthplace VARCHAR(250) NOT NULL, description TEXT, PRIMARY KEY (id));
+INSERT INTO ph_heroes ( firstname, lastname, birthplace, description) VALUES
+  ( 'Jose', 'Rizal', 'Calamba', 'Patriot, physician, and man of letters who was an inspiration to the Philippine nationalist movement'),
+  ( 'Andres', 'Bonifacio', 'Tondo, Manila', 'A Filipino revolutionary hero, founded the Katipunan, a secret society which spearheaded the uprising against the Spanish and laid the groundwork for the first Philippine Republic' ),
+  ( 'Antonio', 'Luna', 'Binondo, Manila', 'A Filipino army general who fought in the Philippine–American War before his assassination in 1899' ),
+  ( 'Apolinario', 'Mabini', 'Tanauan', 'A Filipino political philosopher and architect of the Philippine revolution. He formulated the principles of a democratic popular government, endowing the historical struggles of the Filipino people with a coherent ideological orientation' ),
+  ( 'Marcelo', 'del Pilar', 'Bulacan', 'A Philippine revolutionary propagandist and satirist. He tried to marshal the nationalist sentiment of the enlightened Filipino ilustrados, or bourgeoisie, against Spanish imperialism.');
