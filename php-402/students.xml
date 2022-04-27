@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<students>
+    <record>
+        <id>1</id>
+        <name>Student 1 name</name>
+        <gender>Male</gender>
+        <section>Section 1</section>
+    </record>
+    <record>
+        <id>2</id>
+        <name>Student 2 name</name>
+        <gender>Male</gender>
+        <section>Section 2</section>
+    </record>
+    <record>
+        <id>3</id>
+        <name>Student 3 name</name>
+        <gender>Male</gender>
+        <section>Section 3</section>
+    </record>
+</students>
